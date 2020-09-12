@@ -48,7 +48,7 @@ public class Mainclass
       System.out.println(e2.hashCode());
       System.out.println(e3.hashCode());
       
-      System.out.println(e1.equals(e2));
+      System.out.println(e2.equals(e1));
       System.out.println(e1.equals(e3));
       
       System.out.println(e1.toString());
