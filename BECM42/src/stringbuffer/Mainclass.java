@@ -4,10 +4,17 @@ public class Mainclass {
 
 	public static void main(String[] args) 
 	{
-       StringBuffer sb1 = new StringBuffer("hello");
-       System.out.println(sb1);
-       sb1 = sb1.append("world");
-       System.out.println(sb1);
+		StringBuilder sb1 = new StringBuilder("hello");
+		StringBuilder sb2 = new StringBuilder("java");
+       
+       System.out.println(sb1.hashCode());
+       System.out.println(sb2.hashCode());
+       
+       System.out.println(sb1.toString());
+       System.out.println(sb2.toString());
+       
+       
+       System.out.println(sb1.equals(sb2));     
 	}
 
 }
