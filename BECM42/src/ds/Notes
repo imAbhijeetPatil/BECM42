@@ -1,0 +1,14 @@
+Data Structure : Arranging the data in a particular order to use them effeciently
+                 in the program.
+                 
+Data structurers are of 2 types
+
+1. Linear DS
+2. Hirarchical DS
+
+1. Linear DS : A type of DS where data are arranged in a linear sequence.
+               Arrays, Stack ,Queue,LinkedList
+
+2. Hirarchical DS : A type of DS where data are arranged according to some Relation
+               Tree,Graphs
+
