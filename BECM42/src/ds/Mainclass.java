@@ -1,7 +1,5 @@
 package ds;
 
-import java.util.Stack;
-
 class Student
 {
 	int sid;
@@ -14,13 +12,14 @@ class Student
 		this.name = name;
 		this.agg = agg;
 	}
-	
+
 	@Override
-	public String toString() 
-	{
-		return sid+" "+name+" "+agg;
-	}
+	public String toString() {
+		return "Student [sid=" + sid + ", name=" + name + ", agg=" + agg + "]";
+	}	
 }
+
+
 
 public class Mainclass 
 {
@@ -34,7 +33,7 @@ public class Mainclass
 		 System.out.println("student added to "+index);
 	}
 	
-	//retrive an element from array
+	//retrive an element from array 
 	public static Student getStudent(int id)
 	{
 		 Student v1 = fakeDb[id];

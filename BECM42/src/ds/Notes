@@ -11,4 +11,10 @@ Data structurers are of 2 types
 
 2. Hirarchical DS : A type of DS where data are arranged according to some Relation
                Tree,Graphs
+               
+Object array : Object[] arr1 = new Object[4];
+               It is a type of array where each and every bucket of the array represents
+               one reference variable;.
+               
+               Within Object array we can store any type of Objects.(Due to Upcasting)
 
