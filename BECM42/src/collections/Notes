@@ -115,9 +115,9 @@ Wrapper Classes
    of the specified collection.
   
    Vector(int initialCapacity)
+   equal to zero.
    Constructs an empty vector with the specified 
    initial capacity and with its capacity increment 
-   equal to zero.
    
    Vector(int initialCapacity, int capacityIncrement)
    Constructs an empty vector with the specified initial 

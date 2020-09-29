@@ -1,5 +1,7 @@
 package ds;
 
+import java.util.ArrayList;
+
 class Mobile {
 	String brand;
 	double price;
@@ -39,26 +41,19 @@ class Book {
 
 class Cart 
 {
-	private static Object[] arr1 = new Object[4];
-	private static int index = 0;
+	private static ArrayList arr1 = new ArrayList();
 
-	public static void addProduct(Object ref) {
-
-		if (index < arr1.length) 
-		{
-			arr1[index++] = ref;
+	public static void addProduct(Object ref) 
+	{
+			arr1.add(ref);  //arr1[index++] = ref;
 			System.out.println("product added to cart");
-		} 
-		else
-			System.out.println("cart is full");
 	}
 
-	public static void showCart() {
-		for (int i = 0; i < arr1.length; i++) {
-			if (arr1[i] != null)
-				System.out.println(arr1[i]);
-			else
-				return;
+	public static void showCart() 
+	{
+		for (int i = 0; i < arr1.size(); i++)
+		{
+		   System.out.println(arr1.get(i));
 		}
 	}
 
